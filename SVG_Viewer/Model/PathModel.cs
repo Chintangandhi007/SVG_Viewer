@@ -20,5 +20,7 @@ namespace SVG_Viewer.Model
         public int CircleX { get; set; }
         public int CircleY { get; set; }
         public int CircleR { get; set; }
+        public SolidColorBrush Fill { get; set; }
+        public SolidColorBrush Stroke { get; set; }
     }
 }
