@@ -14,4 +14,11 @@ namespace SVG_Viewer.Model
         public int Tag { get; set; }
         public double StrokeThickness { get; set; }
     }
+
+    public class CircleModel
+    {
+        public int CircleX { get; set; }
+        public int CircleY { get; set; }
+        public int CircleR { get; set; }
+    }
 }
